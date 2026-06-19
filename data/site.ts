@@ -58,7 +58,7 @@ export const site = {
       summary: 'Informal code review of the Event Tracker application where I go over the existing functionality, code analysis, and proposed enhancements.',
       solution: '',
       impact: '',
-      image: '/CS-499-Page/Thumbnail',
+      image: '/CS-499-Page/Thumbnail.png',
       imageAlt: 'Informal Code Review Video',
     },
   ],
