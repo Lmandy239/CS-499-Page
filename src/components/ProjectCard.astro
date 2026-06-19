@@ -60,7 +60,15 @@ function getHref(href: string) {
   )}
 
   <div class="space-y-4">
-    <p class="body-copy">{project.summary}</p>
+    {Array.isArray(project.summary) ? (
+      <div class="space-y-4">
+        {project.summary.map((paragraph) => (
+          <p class="body-copy">{paragraph}</p>
+        ))}
+      </div>
+    ) : (
+      <p class="body-copy">{project.summary}</p>
+    )}
 
     {project.solution && (
       <div>

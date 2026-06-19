@@ -32,7 +32,10 @@ export const site = {
     {
       title: 'Event Tracker Application',
       period: '',
-      summary: 'summary stub',
+      summary: [
+        'The selected course artifact for this portfolio is an Android event planner application, which I originally created about a year ago. The original application included features such as logging in, registering, creating events, and viewing events through multiple screens like the calendar view, today view, settings page, and event cards. This application originally worked; however, many aspects of the design and navigation were outdated, unprofessional, and basic.',
+        "As of today, three proposed enhancements were performed on the same artifact. Specifically, the first enhancement focused on redesigning the UI, improving navigation and making things cleaner and more concise. The second one made use of data structures and algorithms to implement sorting and name filtering functionalities for stored events. Lastly, the third enhancement completely overhauled and replaced the app's storage system. I changed the SQLite storage to a MySQL database connected through a Node.js and Express API. All of these updates can be seen on each corresponding listed version below, with the last version containing all features.",
+      ],
       solution: [
         {
           text: 'Enhanced version 1.3',
