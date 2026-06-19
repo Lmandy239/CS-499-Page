@@ -8,10 +8,22 @@ interface Props {
 
 const { project, imageSrc: imageOverride } = Astro.props;
 
-const imageSrc = imageOverride ?? (project.image ? (project.image.startsWith('/') ? project.image : `/${project.image}`) : undefined);
+const base = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
+
+const imageSrc = imageOverride ?? (project.image ? (project.image.startsWith('/') ? project.image : `${base}${project.image}`) : undefined);
 
 function isLinkList(value: unknown): value is readonly { text: string; href: string }[] {
   return Array.isArray(value);
+}
+
+function getHref(href: string) {
+  if (href.startsWith('http') || href.startsWith('/')) {
+    return href;
+  }
+
+  return `${base}${href}`;
 }
 ---
 
@@ -61,8 +73,8 @@ function isLinkList(value: unknown): value is readonly { text: string; href: str
             <div class="space-y-1">
               {project.solution.map((item) => (
                 <a
-                  href={item.href}
-                  class="block text-accent hover:underline"
+                  href={getHref(item.href)}
+                  class="block text-[11px] text-accent hover:underline"
                   download
                 >
                   {item.text}
@@ -87,8 +99,8 @@ function isLinkList(value: unknown): value is readonly { text: string; href: str
             <div class="space-y-1">
               {project.impact.map((item) => (
                 <a
-                  href={item.href}
-                  class="block text-accent hover:underline"
+                  href={getHref(item.href)}
+                  class="block text-[11px] text-accent hover:underline"
                   download
                 >
                   {item.text}
