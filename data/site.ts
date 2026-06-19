@@ -39,15 +39,15 @@ export const site = {
       solution: [
         {
           text: 'Enhanced version 1.3',
-          href: '/CS-499-Page/enhanced-version-1.3.zip',
+          href: '/CS-499-Page/downloads/enhanced-version-1.3.zip',
         },
         {
           text: 'Enhanced version 1.2',
-          href: '/CS-499-Page/enhanced-version-1.2.zip',
+          href: '/CS-499-Page/downloads/enhanced-version-1.2.zip',
         },
         {
           text: 'Enhanced version 1.1',
-          href: '/CS-499-Page/enhanced-version-1.1.zip',
+          href: '/CS-499-Page/downloads/enhanced-version-1.1.zip',
         },
       ],
       impact: [
