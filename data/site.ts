@@ -53,13 +53,13 @@ export const site = {
       ],
     },
     {
-      title: 'Nova Launch Marketing Platform',
+      title: 'Informal Code Review',
       period: '',
       summary: 'Delivered a modular marketing site and interactive product showcase for a launch-ready SaaS brand.',
-      solution: 'Implemented a content-driven architecture with reusable card components and dynamic project pages, enabling non-technical content updates.',
-      impact: 'Reduced content update time by 80% through intuitive component-based structure; enabled marketing team independence.',
-      image: 'astro-02.jpeg',
-      imageAlt: 'Nova Launch platform interface',
+      solution: 'Informal code review of the Event Tracker application where I go over the existing functionality, code analysis, and proposed enhancements',
+      impact: '',
+      image: '/CS-499-Page/Thumbnail.png',
+      imageAlt: 'Informal Code Review Video',
     },
   ],
   projectArchivePage: {
