@@ -19,7 +19,7 @@ export const site = {
     name: 'Armando Laguardia',
     role: 'SNHU CS Student',
     tagline: 'ePorfolio showcasing a bit of my journey and accomplishments during the CS program at SNHU',
-    avatarSrc: '/favicon.svg',
+    avatarSrc: '/AvatarMaker.png',
     avatarAlt: 'Alex Morgan',
   },
   about: {
