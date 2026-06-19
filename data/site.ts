@@ -44,9 +44,9 @@ export const site = {
       impact: "",
       narrative: {
         description:
-          "To view the entire narrative for this enhancement, click the link below.",
+          "To view the narrative for this enhancement, click the link below.",
         text: "View Narrative (PDF)",
-        href: "/CS-499-Page/Narratives3.pdf",
+        href: "/CS-499-Page/downloads/Narratives3.pdf",
       },
       image: "astro-01.webp",
       imageAlt: "Event Tracker Application showcase",
@@ -67,9 +67,9 @@ export const site = {
       impact: "",
       narrative: {
         description:
-          "To view the entire narrative for this enhancement, click the link below.",
+          "To view the narrative for this enhancement, click the link below.",
         text: "View Narrative (PDF)",
-        href: "/CS-499-Page/Narratives2.pdf",
+        href: "/CS-499-Page/downloads/Narratives2.pdf",
       },
       image: "astro-01.webp",
       imageAlt: "Algorithms and Data Structures enhancement showcase",
@@ -90,9 +90,9 @@ export const site = {
       impact: "",
       narrative: {
         description:
-          "To view the entire narrative for this enhancement, click the link below.",
+          "To view the narrative for this enhancement, click the link below.",
         text: "View Narrative (PDF)",
-        href: "/CS-499-Page/Narratives1.pdf",
+        href: "/CS-499-Page/downloads/Narratives1.pdf",
       },
       image: "astro-01.webp",
       imageAlt: "Software Design and Engineering enhancement showcase",
