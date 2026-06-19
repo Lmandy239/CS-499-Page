@@ -94,12 +94,12 @@
   /* Theme Variations */
   :root,
   [data-theme="default-dark"] {
-    --color-background: #121212;
-    --color-accent: #EAB308;
-    --color-maintext: #FAFAF9;
-    --color-subtext: #dad0c9;
-    --color-textrain: #777271;
-  }
+  --color-background: #121212;
+  --color-accent: #00BFFF;
+  --color-maintext: #FAFAF9;
+  --color-subtext: #dad0c9;
+  --color-textrain: #777271;
+}
 
   [data-theme="strategic-dark"] {
     --color-background: #0F172A;
