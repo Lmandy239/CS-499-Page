@@ -56,23 +56,11 @@ export const site = {
       title: 'Informal Code Review',
       period: '',
       summary: 'Informal code review of the Event Tracker application where I go over the existing functionality, code analysis, and proposed enhancements.',
-      solution: '',
+      solution: 'Click here or on the image to access the code review',
       impact: '',
       image: 'Thumbnail.png',
       imageAlt: 'Informal Code Review Video',
     },
-  ],
-  projectArchivePage: {
-    title: 'All projects',
-    description: 'Project archive: dates, roles, and technologies across representative engagements.',
-    intro: 'A concise archive of engagements and representative work.',
-  },
-  projectArchive: [
-    { date: '2025', project: 'Design system rollout', role: 'Frontend', techStack: 'Astro, CSS, Storybook' },
-    { date: '2024', project: 'Checkout reliability', role: 'Full-stack', techStack: 'TypeScript, Postgres, Redis' },
-    { date: '2024', project: 'Auth hardening', role: 'Backend', techStack: 'OAuth2, JWT, rate limits' },
-    { date: '2023', project: 'Analytics pipeline', role: 'Data', techStack: 'SQL, dbt, warehouse' },
-    { date: '2023', project: 'Mobile web refresh', role: 'Frontend', techStack: 'HTML, CSS, a11y audits' },
   ],
   contact: {
     email: 'hello@example.com',
@@ -81,5 +69,5 @@ export const site = {
   },
 } as const;
 
-export type ProjectArchiveRow = (typeof site.projectArchive)[number];
+
 export type FeaturedProject = (typeof site.featuredProjects)[number];
