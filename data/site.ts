@@ -27,12 +27,7 @@ export const site = {
       'For this portfolio, I’ve chosen an artifact from a mobile development class. It is a simple application that allows users to register or log in, create and edit events, and sort or filter those events. The app itself has a simple layout that follows Android’s best UI/UX practices, and it keeps things consistent and simple throughout every screen. The original version of the application will be listed for comparison, but the enhanced version shows how all three enhancements proposed in class have been applied to the app. The enhanced version has a better and updated UI with a more professional design, additional functions through the use of algorithms, and an added MySQL database connected through a Node.js and Express API. Together, these enhancements meet all the given milestones from class and demonstrate mastery of many of the desired class outcomes. Although not my greatest project, it is a perfect demonstration of my growth here at SNHU.',
       'Learning the technical sides of computer science was another thing that this program taught me. During my classes that tackled methodologies, I learned a lot about team collaboration and approaches such as agile and waterfall. These concepts helped me learn about planning, problem-solving, and adjusting to change. The coding classes and data structure courses helped me learn the concepts related to safe coding, algorithms, and data structures. Finally, during the full-stack course prior to this one, I learned about how to deliver products to stakeholders and making sure I used simple language that was not jargon-centered. As mentioned before, security was a huge portion of the program, and static testing, defense in depth, and the zero trust principles helped build strong foundations for my future career. In essence, the entire program has helped me become a much more rounded professional who can now employ and effectively utilize a plethora of tools and strategies.',
       {
-        heading: 'Example focus areas',
-        bullets: [
-          'Designing APIs and client boundaries with typed contracts',
-          'Performance budgets, caching, and pragmatic observability',
-          'Shipping incrementally with feature flags and rollback-friendly deploys',
-        ],
+        
       },
     ],
   },
