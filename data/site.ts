@@ -32,14 +32,16 @@ export const site = {
     {
       title: "Enhancement Three: Databases",
       period: "",
-      summary: ["This is the third and final enhancement, also referred as the completed application. This version completely overhauled and replaced the app's storage system. I changed the SQLite storage to a MySQL database connected through a Node.js and Express API."],
+      summary: [
+        "This is the third and final enhancement, also referred to as the completed application. This version completely overhauled and replaced the app's storage system. I changed the SQLite storage to a MySQL database connected through a Node.js and Express API.",
+      ],
       solution: [
         {
           text: "Enhanced version 1.3",
           href: "/CS-499-Page/downloads/enhanced-version-1.3.zip",
         },
       ],
-      impact:'',
+      impact: "",
       image: "astro-01.webp",
       imageAlt: "Event Tracker Application showcase",
       link: "",
@@ -47,7 +49,9 @@ export const site = {
     {
       title: "Enhancement Two: Algorithms and Data Structures",
       period: "",
-      summary: ["This is the second enhancement which makes use of data structures and algorithms to implement sorting and name filtering functionalities for stored events."],
+      summary: [
+        "This is the second enhancement which makes use of data structures and algorithms to implement sorting and name filtering functionalities for stored events.",
+      ],
       solution: [
         {
           text: "Enhanced version 1.2",
@@ -62,7 +66,9 @@ export const site = {
     {
       title: "Enhancement One: Software Design and Engineering",
       period: "",
-      summary: ["This first enhancement focused on redesigning the UI, improving navigation and making things cleaner and more concise. ."],
+      summary: [
+        "This first enhancement focused on redesigning the UI, improving navigation and making things cleaner and more concise.",
+      ],
       solution: [
         {
           text: "Enhanced version 1.1",
@@ -74,11 +80,13 @@ export const site = {
       imageAlt: "Software Design and Engineering enhancement showcase",
       link: "",
     },
-     {
+    {
       title: "Original Artifact",
       period: "",
-      summary: ["The original application included features such as logging in, registering, creating events, and viewing events through multiple screens like the calendar view, today view, settings page, and event cards. This application originally worked; however, many aspects of the design and navigation were outdated, unprofessional, and basic."],
-      solution: '',
+      summary: [
+        "The original application included features such as logging in, registering, creating events, and viewing events through multiple screens like the calendar view, today view, settings page, and event cards. This application originally worked; however, many aspects of the design and navigation were outdated, unprofessional, and basic.",
+      ],
+      solution: "",
       impact: [
         {
           text: "Original Artifact",
@@ -86,10 +94,10 @@ export const site = {
         },
       ],
       image: "astro-01.webp",
-      imageAlt: "Software Design and Engineering enhancement showcase",
+      imageAlt: "Original Event Tracker Application artifact",
       link: "",
     },
-    
+
     {
       title: "Informal Code Review",
       period: "",
@@ -103,9 +111,9 @@ export const site = {
     },
   ],
   contact: {
-    email: "hello@example.com",
-    github: "https://github.com/",
-    linkedin: "https://www.linkedin.com/",
+    email: "",
+    github: "https://github.com/Lmandy239",
+    linkedin: "https://www.linkedin.com/in/armandolaguardia/",
   },
 } as const;
 

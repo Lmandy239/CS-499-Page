@@ -19,6 +19,11 @@ function getImageSrc(image?: string) {
   // Otherwise, add the correct base path for local/GitHub Pages.
   return image.startsWith('/') ? image : `${base}${image}`;
 }
+
+function getProjectId(title: string) {
+  if (title === 'Informal Code Review') return 'code-review';
+  return undefined;
+}
 ---
 
 <section
@@ -30,10 +35,12 @@ function getImageSrc(image?: string) {
 
   <div class="space-y-20">
     {projects.map((project) => (
-      <ProjectCard
-        project={project}
-        imageSrc={getImageSrc(project.image)}
-      />
+      <div id={getProjectId(project.title)} class="scroll-mt-24 lg:scroll-mt-8">
+        <ProjectCard
+          project={project}
+          imageSrc={getImageSrc(project.image)}
+        />
+      </div>
     ))}
   </div>
 </section>
