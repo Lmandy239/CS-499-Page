@@ -32,7 +32,7 @@ export const site = {
     {
       title: "Enhancement Three: Databases",
       period: "",
-      summary: ["Work in progress."],
+      summary: ["This is the third and final enhancement, also referred as the completed application. This version completely overhauled and replaced the app's storage system. I changed the SQLite storage to a MySQL database connected through a Node.js and Express API."],
       solution: [
         {
           text: "Enhanced version 1.3",
@@ -47,7 +47,7 @@ export const site = {
     {
       title: "Enhancement Two: Algorithms and Data Structures",
       period: "",
-      summary: ["Work in progress."],
+      summary: ["This is the second enhancement which makes use of data structures and algorithms to implement sorting and name filtering functionalities for stored events."],
       solution: [
         {
           text: "Enhanced version 1.2",
@@ -62,7 +62,7 @@ export const site = {
     {
       title: "Enhancement One: Software Design and Engineering",
       period: "",
-      summary: ["Work in progress."],
+      summary: ["This first enhancement focused on redesigning the UI, improving navigation and making things cleaner and more concise. ."],
       solution: [
         {
           text: "Enhanced version 1.1",
@@ -77,14 +77,14 @@ export const site = {
      {
       title: "Original Artifact",
       period: "",
-      summary: ["Work in progress."],
-      solution:[
+      summary: ["The original application included features such as logging in, registering, creating events, and viewing events through multiple screens like the calendar view, today view, settings page, and event cards. This application originally worked; however, many aspects of the design and navigation were outdated, unprofessional, and basic."],
+      solution: '',
+      impact: [
         {
           text: "Original Artifact",
-          href: "/CS-499-Page/original-artifact.zip",
+          href: "/CS-499-Page/downloads/original-artifact.zip",
         },
       ],
-      impact: "",
       image: "astro-01.webp",
       imageAlt: "Software Design and Engineering enhancement showcase",
       link: "",
