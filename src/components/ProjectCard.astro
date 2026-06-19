@@ -9,6 +9,10 @@ interface Props {
 const { project, imageSrc: imageOverride } = Astro.props;
 
 const imageSrc = imageOverride ?? (project.image ? (project.image.startsWith('/') ? project.image : `/${project.image}`) : undefined);
+
+function isLinkList(value: unknown): value is readonly { text: string; href: string }[] {
+  return Array.isArray(value);
+}
 ---
 
 <article class="scroll-stat panel-card group space-y-6">
@@ -48,15 +52,53 @@ const imageSrc = imageOverride ?? (project.image ? (project.image.startsWith('/'
 
     {project.solution && (
       <div>
-        <dt class="text-xs uppercase tracking-wider text-accent">Enhanced Version History</dt>
-        <dd class="mt-1.5 text-slate">{project.solution}</dd>
+        <dt class="text-xs uppercase tracking-wider text-accent">
+          Enhanced Version History
+        </dt>
+
+        <dd class="mt-1.5 text-slate">
+          {isLinkList(project.solution) ? (
+            <div class="space-y-1">
+              {project.solution.map((item) => (
+                <a
+                  href={item.href}
+                  class="block text-accent hover:underline"
+                  download
+                >
+                  {item.text}
+                </a>
+              ))}
+            </div>
+          ) : (
+            project.solution
+          )}
+        </dd>
       </div>
     )}
 
     {project.impact && (
       <div>
-        <dt class="text-xs uppercase tracking-wider text-accent">Original Artifact</dt>
-        <dd class="mt-1.5 text-slate">{project.impact}</dd>
+        <dt class="text-xs uppercase tracking-wider text-accent">
+          Original Artifact
+        </dt>
+
+        <dd class="mt-1.5 text-slate">
+          {isLinkList(project.impact) ? (
+            <div class="space-y-1">
+              {project.impact.map((item) => (
+                <a
+                  href={item.href}
+                  class="block text-accent hover:underline"
+                  download
+                >
+                  {item.text}
+                </a>
+              ))}
+            </div>
+          ) : (
+            project.impact
+          )}
+        </dd>
       </div>
     )}
   </div>
