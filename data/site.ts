@@ -3,9 +3,7 @@
  * PAGE CONTENT DATA
  * ============================================
  * All structured content for pages lives here.
- * Edit these arrays/objects to customize the template content.
- *
- * Replace placeholder images in src/assets/ with your own.
+ * 
  */
 
 export const site = {
@@ -18,7 +16,7 @@ export const site = {
   hero: {
     name: 'Armando Laguardia',
     role: 'SNHU CS Student',
-    tagline: 'ePorfolio showcasing a bit of my journey and accomplishments during the CS program at SNHU',
+    tagline: 'ePortfolio showcasing a bit of my journey and accomplishments during the CS program at SNHU',
     avatarSrc: '/CS-499-Page/AvatarMaker.png',
   },
   about: {
@@ -39,16 +37,7 @@ export const site = {
       impact: 'Achieved sub-1s page load metrics and 95+ Lighthouse scores through optimized asset delivery and lazy loading strategies.',
       image: 'astro-01.webp',
       imageAlt: 'Lumen Studio website showcase',
-      techCategories: [
-        {
-          category: 'Frontend',
-          items: ['TypeScript', 'Astro', 'Tailwind CSS', 'Responsive Design'],
-        },
-        {
-          category: 'Performance',
-          items: ['Asset Optimization', 'Lazy Loading', 'Image CDN'],
-        },
-      ],
+      link: '',
     },
     {
       title: 'Informal Code Review',

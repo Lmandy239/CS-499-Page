@@ -20,7 +20,9 @@ const paragraphs = site.about.paragraphs as readonly AboutParagraph[];
   class="mb-24 scroll-mt-24 lg:mb-32 lg:scroll-mt-8"
   aria-labelledby="about-heading"
 >
-  <h2 id="about-heading" class="section-heading">{site.about.title}</h2>
+  <h2 id="about-heading" class="section-heading">
+    {site.about.title}
+  </h2>
 
   <div class="reveal-content mt-8 grid items-start gap-10">
     <div class="space-y-8 body-copy">
@@ -29,17 +31,23 @@ const paragraphs = site.about.paragraphs as readonly AboutParagraph[];
           <p>{p}</p>
         ) : (
           <>
-            {'text' in p && p.text !== undefined && (
+            {p.text && (
               <p>
                 {p.text}
                 {p.link && (
-                  <a href={p.link.href} class="subtle-link text-accent" target="_blank" rel="noreferrer">
+                  <a
+                    href={p.link.href}
+                    class="subtle-link text-accent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     {p.link.text}
                   </a>
                 )}
-                {'textAfter' in p && p.textAfter}
+                {p.textAfter}
               </p>
             )}
+
             {p.heading && (
               <div class="space-y-2">
                 <p class="font-semibold text-white-soft">{p.heading}</p>
