@@ -42,6 +42,12 @@ export const site = {
         },
       ],
       impact: "",
+      narrative: {
+        description:
+          "To view the entire narrative for this enhancement, click the link below.",
+        text: "View Narrative (PDF)",
+        href: "/CS-499-Page/Narratives3.pdf",
+      },
       image: "astro-01.webp",
       imageAlt: "Event Tracker Application showcase",
       link: "",
@@ -59,6 +65,12 @@ export const site = {
         },
       ],
       impact: "",
+      narrative: {
+        description:
+          "To view the entire narrative for this enhancement, click the link below.",
+        text: "View Narrative (PDF)",
+        href: "/CS-499-Page/Narratives2.pdf",
+      },
       image: "astro-01.webp",
       imageAlt: "Algorithms and Data Structures enhancement showcase",
       link: "",
@@ -76,6 +88,12 @@ export const site = {
         },
       ],
       impact: "",
+      narrative: {
+        description:
+          "To view the entire narrative for this enhancement, click the link below.",
+        text: "View Narrative (PDF)",
+        href: "/CS-499-Page/Narratives1.pdf",
+      },
       image: "astro-01.webp",
       imageAlt: "Software Design and Engineering enhancement showcase",
       link: "",

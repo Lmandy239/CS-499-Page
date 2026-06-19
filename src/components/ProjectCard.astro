@@ -70,6 +70,29 @@ function getHref(href: string) {
       <p class="body-copy">{project.summary}</p>
     )}
 
+    {'narrative' in project && project.narrative && (
+      <div>
+        <dt class="text-xs uppercase tracking-wider text-accent">
+          Narrative
+        </dt>
+
+        <dd class="mt-1.5 text-slate">
+          <p class="body-copy mb-1.5 text-sm">
+            {project.narrative.description}
+          </p>
+
+          <a
+            href={getHref(project.narrative.href)}
+            class="block text-[11px] text-accent hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {project.narrative.text}
+          </a>
+        </dd>
+      </div>
+    )}
+
     {project.solution && (
       <div>
         <dt class="text-xs uppercase tracking-wider text-accent">
