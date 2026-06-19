@@ -55,10 +55,10 @@ export const site = {
     {
       title: 'Informal Code Review',
       period: '',
-      summary: 'Delivered a modular marketing site and interactive product showcase for a launch-ready SaaS brand.',
-      solution: 'Informal code review of the Event Tracker application where I go over the existing functionality, code analysis, and proposed enhancements',
+      summary: 'Informal code review of the Event Tracker application where I go over the existing functionality, code analysis, and proposed enhancements.',
+      solution: '',
       impact: '',
-      image: '/CS-499-Page/Thumbnail.png',
+      image: '/CS-499-Page/Thumbnail',
       imageAlt: 'Informal Code Review Video',
     },
   ],
