@@ -13,13 +13,12 @@ export const site = {
   meta: {
     title: 'Armando Laguardia',
     description:
-      'Portfolio example: shipping reliable web products with clear architecture, tests, and delivery practices.',
+      'ePortfolio',
   },
   hero: {
     name: 'Armando Laguardia',
-    role: 'CS Student Graduate',
-    tagline: 'From product intent to production — pragmatic systems, accessible UI, and maintainable code.',
-    contact: 'Open to collaborations and senior IC roles on product-minded teams.',
+    role: 'SNHU CS Student',
+    tagline: 'ePorfolio showcasing a bit of my journey and accomplishments during the CS program at SNHU',
     avatarSrc: '/favicon.svg',
     avatarAlt: 'Alex Morgan',
   },
@@ -34,10 +33,6 @@ export const site = {
           'Performance budgets, caching, and pragmatic observability',
           'Shipping incrementally with feature flags and rollback-friendly deploys',
         ],
-      },
-      {
-        heading: 'Sample stack',
-        techItems: ['TypeScript', 'Astro', 'Tailwind CSS', 'Node', 'Vitest'],
       },
     ],
   },
