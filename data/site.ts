@@ -11,13 +11,13 @@
 export const site = {
   url: 'https://example.com',
   meta: {
-    title: 'Alex Morgan | Full-stack engineer',
+    title: 'Armando Laguardia',
     description:
       'Portfolio example: shipping reliable web products with clear architecture, tests, and delivery practices.',
   },
   hero: {
-    name: 'Alex Morgan',
-    role: 'Full-stack engineer',
+    name: 'Armando Laguardia',
+    role: 'CS Student Graduate',
     tagline: 'From product intent to production — pragmatic systems, accessible UI, and maintainable code.',
     contact: 'Open to collaborations and senior IC roles on product-minded teams.',
     avatarSrc: '/favicon.svg',
