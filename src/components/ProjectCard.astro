@@ -21,13 +21,25 @@ const imageSrc = imageOverride ?? (project.image ? (project.image.startsWith('/'
 
   {imageSrc && (
     <div class="w-full max-w-3xl overflow-hidden rounded-xl">
-      <img
-        src={imageSrc}
-        alt={project.imageAlt ?? ''}
-        class="w-full h-56 object-cover"
-        loading="lazy"
-        decoding="async"
-      />
+      {project.link ? (
+        <a href={project.link} target="_blank" rel="noopener noreferrer">
+          <img
+            src={imageSrc}
+            alt={project.imageAlt ?? ''}
+            class="w-full h-56 object-cover"
+            loading="lazy"
+            decoding="async"
+          />
+        </a>
+      ) : (
+        <img
+          src={imageSrc}
+          alt={project.imageAlt ?? ''}
+          class="w-full h-56 object-cover"
+          loading="lazy"
+          decoding="async"
+        />
+      )}
     </div>
   )}
 
