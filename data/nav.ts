@@ -1,4 +1,4 @@
 export const navLinks = [
-  { href: '#about', label: 'Professional Self-assessment' },
-  { href: '#Code Review', label: 'Code Review' },
+  { href: '#about', label: 'Professional Self-Assessment' },
+  { href: '#featured-projects', label: 'Artifacts' },
 ] as const;
