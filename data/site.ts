@@ -111,7 +111,7 @@ export const site = {
           href: "/CS-499-Page/downloads/original-artifact.zip",
         },
       ],
-      image: "Original.png",
+      image: "Original1.png",
       imageAlt: "Original Event Tracker Application artifact",
       link: "",
     },
