@@ -74,6 +74,20 @@ const paragraphs = site.about.paragraphs as readonly AboutParagraph[];
           </>
         )
       )}
+
+      {'note' in site.about && site.about.note && (
+        <p>
+          {site.about.note.text}{' '}
+          <a
+            href={site.about.note.href}
+            class="subtle-link text-accent"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {site.about.note.linkText}
+          </a>
+        </p>
+      )}
     </div>
   </div>
 </section>
