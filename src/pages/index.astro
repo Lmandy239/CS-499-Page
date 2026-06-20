@@ -11,6 +11,36 @@ const projects = site.featuredProjects;
 
 <Layout title={site.meta.title} description={site.meta.description}>
   <About />
+
+  <section
+    id="demonstration"
+    class="mb-24 scroll-mt-24 lg:mb-32 lg:scroll-mt-8"
+    aria-labelledby="demonstration-heading"
+  >
+    <h2 id="demonstration-heading" class="section-heading">
+      {site.demonstration.title}
+    </h2>
+
+    <div class="reveal-content mt-8 grid items-start gap-10">
+      <div class="space-y-8 body-copy">
+        {site.demonstration.paragraphs.map((paragraph) => (
+          <p>{paragraph}</p>
+        ))}
+
+        <p>
+          <a
+            href={site.demonstration.link.href}
+            class="subtle-link text-accent"
+            target={site.demonstration.link.href === "#" ? undefined : "_blank"}
+            rel={site.demonstration.link.href === "#" ? undefined : "noopener noreferrer"}
+          >
+            {site.demonstration.link.text}
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
   <FeaturedProjects projects={projects} />
   <Footer />
 </Layout>

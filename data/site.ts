@@ -27,10 +27,21 @@ export const site = {
       "Learning the technical sides of computer science was another thing that this program taught me. During my classes that tackled methodologies, I learned a lot about team collaboration and approaches such as agile and waterfall. These concepts helped me learn about planning, problem-solving, and adjusting to change. The coding classes and data structure courses helped me learn the concepts related to safe coding, algorithms, and data structures. Finally, during the full-stack course prior to this one, I learned about how to deliver products to stakeholders and making sure I used simple language that was not jargon-centered. As mentioned before, security was a huge portion of the program, and static testing, defense in depth, and the zero trust principles helped build strong foundations for my future career. In essence, the entire program has helped me become a much more rounded professional who can now employ and effectively utilize a plethora of tools and strategies.",
     ],
     note: {
-    text: "NOTE: It is recommended to read the instructions before downloading the files from the artifacts section.",
-    linkText: "Setup Instructions (PDF)",
-    href: "/CS-499-Page/downloads/ApplicationSetupInstructions.pdf",
+      text: "NOTE: It is recommended to read the instructions before downloading the files from the artifacts section.",
+      linkText: "Setup Instructions (PDF)",
+      href: "/CS-499-Page/downloads/ApplicationSetupInstructions.pdf",
+    },
   },
+
+  demonstration: {
+    title: "Demonstration",
+    paragraphs: [
+      "Since it is a mobile application, I've decided to also present it in a more holistic and interactive manner instead of simply having links and pictures that cannot fully demonstrate the end product. This demonstration will provide a complete walkthrough of the final version while showcasing all of its features and functionality.",
+    ],
+    link: {
+      text: "View Demonstration",
+      href: "#",
+    },
   },
 
   featuredProjects: [
