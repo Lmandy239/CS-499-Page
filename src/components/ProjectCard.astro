@@ -72,15 +72,11 @@ function getHref(href: string) {
 
     {'narrative' in project && project.narrative && (
       <div>
-        <dt class="text-xs uppercase tracking-wider text-accent">
+        <dt class="mb-1 text-base font-bold uppercase tracking-tight text-slate">
           Narrative
         </dt>
 
-        <dd class="mt-1.5 text-slate">
-          <p class="body-copy mb-1.5 text-sm">
-            {project.narrative.description}
-          </p>
-
+        <dd class="text-slate">
           <a
             href={getHref(project.narrative.href)}
             class="block text-[11px] text-accent hover:underline"
@@ -95,15 +91,11 @@ function getHref(href: string) {
 
     {project.solution && (
       <div>
-        <dt class="text-xs uppercase tracking-wider text-accent">
+        <dt class="mb-1 text-base font-bold uppercase tracking-tight text-slate">
           Version History
         </dt>
 
-        <dd class="mt-1.5 text-slate">
-          <p class="body-copy mb-1.5 text-sm">
-            To download the artifact files click the link below.
-          </p>
-
+        <dd class="text-slate">
           {isLinkList(project.solution) ? (
             <div class="space-y-1">
               {project.solution.map((item) => (
@@ -125,11 +117,11 @@ function getHref(href: string) {
 
     {project.impact && (
       <div>
-        <dt class="text-xs uppercase tracking-wider text-accent">
+        <dt class="mb-1 text-base font-bold uppercase tracking-tight text-slate">
           Original Artifact
         </dt>
 
-        <dd class="mt-1.5 text-slate">
+        <dd class="text-slate">
           {isLinkList(project.impact) ? (
             <div class="space-y-1">
               {project.impact.map((item) => (
