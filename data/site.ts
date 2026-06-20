@@ -94,7 +94,7 @@ export const site = {
         text: "View Narrative (PDF)",
         href: "/CS-499-Page/downloads/Narratives1.pdf",
       },
-      image: "astro-01.webp",
+      image: "Version1.png",
       imageAlt: "Software Design and Engineering enhancement showcase",
       link: "",
     },
