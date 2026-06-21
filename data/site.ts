@@ -40,7 +40,7 @@ export const site = {
     ],
     link: {
       text: "View Demonstration",
-      href: "#",
+      href: 'https://www.youtube.com/watch?v=N2eSEyARe3o',
     },
   },
 
